@@ -1,7 +1,7 @@
 
 
 
-.header-logo span{ color:#33ccff;}
+.header-logo span{ color:#191970;}
 .header-logo{ float:left;
            padding-right:30px;
            font-size:100px;
@@ -18,7 +18,7 @@
                 border-bottom:2px solid #00ffff;
                 border-top:2px solid #00ffff;
                  width:650px;
-               margin-top:30px;
+               margin-top:100px;
              color:#ffffff;}
 
   img{height:200px; width:300px;}
@@ -35,45 +35,67 @@ span{ color:#ff0000;}
            color:#808080;
            font-size:20px;}
 .main-picture{margin-left:50px;}
-.main-item{
-
-           font-weight:400;
-           width:1400px;
-           margin:auto;
-         }
+.main-item{font-weight:400;
+           margin:auto;}
 .main-item p{
              font-family:arial;
            border-bottom:3px solid #9fd6d2;
          margin-left: 50px;
-       width:700px;}
+       width:800px;}
 
 .header{background-color:#ffffcc;}
 
          .main-definition{float:right;
                          padding-right:200px;
-                         font-size:18px;}
+                         font-size:22px;
+                         }
 .twitter{padding:8px 24px;
     color:#ffffff;
     opacity:1;
-  display:inline-block;
-margin-top:250px;
-background-color:#55acee;}
+background-color:#55acee;
+}
 
 
 .facebook{padding:8px 24px;
     color:#ffffff;
     opacity:1;
-  display:inline-block;
-margin-top:150px;
-margin-right:100px;
-margin-bottom:100px;
+    margin-right:100px;
 background-color:#3b5998;}
-.button{float:right;
+.btn{float:right;
   border-radius:4px;
-}
-.button:hover{opacity:0.8;}
+    display:inline-block;
+    text-align: center;
+  margin-bottom:50px;}
+.btn:hover{opacity:0.8;}
 .main-definition{background-color:#fcfbfa;
                  margin-right:700px;
-               width:300px;
-                padding-right:0px;
+                 width:300px;
+                 padding-right:0px;
                }
+.footer{background-color:#000000;
+        height:230px;
+        font-weight:400;
+        font-family:arial;
+        color:#666;
+        border-bottom:3px solid #000000;
+        color:#ffffff;
+      }
+.footer h3{padding-left:50px;
+           padding-top:50px;}
+.footer h2{margin-left:50px;
+             font-family:"Book Antiqua";
+           margin-top:50px;}
+.top h1{font-family:'Book Antiqua';
+       margin-left:100px;}
+.top{border-top:3px solid #000000;
+border-bottom:3px solid #000000;
+margin-bottom:10px;}
+.table-of-contents{border:4px solid #87cefa;
+text-align:center;
+list-style: none;
+margin:20px 100px;}
+.top-logo{font-size:35px;
+          border-left:7px solid #9bf9cc;
+        background-color:#fffafa;
+      width:1000px;
+      margin:auto;}
