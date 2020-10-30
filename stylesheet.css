@@ -47,26 +47,30 @@ span{ color:#ff0000;}
 .header{background-color:#ffffcc;}
 
 
-                         }
-.twitter{padding:8px 24px;
-    color:#ffffff;
-    opacity:1;
-background-color:#55acee;
-}
 
+.twitter{padding:8px 24px;
+         color:#ffffff;
+         opacity:0.9;
+    display:inline-block;
+background-color:#55acee;
+ border-radius: 4px;
+font-size:30px;}
 
 .facebook{padding:8px 24px;
-    color:#ffffff;
-    opacity:1;
-    margin-right:100px;
-background-color:#3b5998;}
-.btn{float:right;
-  border-radius:4px;
+         color:#ffffff;
+          opacity:0.9;
     display:inline-block;
-    text-align: center;
-  margin-bottom:50px;
-font-size:30px;}
-.btn:hover{opacity:0.8;}
+background-color:#3b5998;
+ border-radius: 4px;
+font-size:30px;
+margin-left:1000px;
+}
+
+.facebook:hover{opacity:1;}
+
+.twitter:hover{opacity:1;
+}
+
 .main-definition{background-color:#fcfbfa;
                  width:250px;
                  font-size:20px;
@@ -74,31 +78,38 @@ font-size:30px;}
                  float:right;
                  margin-right:700px;
                }
+
 .footer{background-color:#000000;
         height:230px;
         font-weight:400;
         font-family:arial;
-        color:#666;
         border-bottom:3px solid #000000;
         color:#ffffff;
       }
+
 .footer h3{padding-left:50px;
            padding-top:50px;}
+
 .footer h2{margin-left:50px;
              font-family:"Book Antiqua";
            margin-top:50px;}
+
 .top h1{font-family:'Book Antiqua';
        margin-left:100px;}
+
 .top{border-top:3px solid #000000;
 border-bottom:3px solid #000000;
 margin-bottom:10px;}
+
 .table-of-contents{border:4px solid #87cefa;
 text-align:center;
 list-style: none;
 margin:20px 100px;}
+
 .top-logo{font-size:35px;
           border-left:7px solid #9bf9cc;
         background-color:#fffafa;
       width:1000px;
       margin:auto;}
+
 .main-topic{float:left;}
