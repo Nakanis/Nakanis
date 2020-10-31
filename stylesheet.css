@@ -21,13 +21,14 @@
                margin-top:100px;
              color:#ffffff;}
 
-  img{height:200px; width:300px;}
+  img{height:250px; width:400px;}
   .main-item h3{font-weight:400;
                  border-left:5px solid #9fd6d2;
                  margin-left:50px;
                 width:500px;
                 background-color:#fcfbfa;
-              color:#666;}
+              color:#666;
+            font-size:20px;}
 
 span{ color:#ff0000;}
 .main-logo{padding-top:50px;
@@ -42,7 +43,8 @@ span{ color:#ff0000;}
              font-family:arial;
            border-bottom:3px solid #9fd6d2;
          margin-left: 50px;
-       width:800px;}
+       width:1000px;
+     font-size:30px;}
 
 .header{background-color:#ffffcc;}
 
@@ -54,7 +56,8 @@ span{ color:#ff0000;}
     display:inline-block;
 background-color:#55acee;
  border-radius: 4px;
-font-size:30px;}
+font-size:30px;
+float:right;}
 
 .facebook{padding:8px 24px;
          color:#ffffff;
@@ -63,7 +66,8 @@ font-size:30px;}
 background-color:#3b5998;
  border-radius: 4px;
 font-size:30px;
-margin-left:1000px;
+float:right;
+margin-right:100px;
 }
 
 .facebook:hover{opacity:1;}
@@ -74,9 +78,10 @@ margin-left:1000px;
 .main-definition{background-color:#fcfbfa;
                  width:300px;
                  font-size:20px;
-                 margin-left:50px;
-                 float:right;
-                 margin-right:700px;
+
+                 margin-right:500px;
+                float:right;
+
                }
 
 .footer{background-color:#000000;
