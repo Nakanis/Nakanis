@@ -57,18 +57,47 @@ span{ color:#ff0000;}
 background-color:#55acee;
  border-radius: 4px;
 font-size:30px;
-float:right;}
+float:right;
+text-decoration: none;
+margin-right:10px;}
+
+.top-twitter:hover{opacity:1;}
+.top-twitter{background-color:#55acee;
+             float:right;
+           color:#ffffff;
+           font-size:25px;
+         padding:5px 10px;
+        border-radius:4px;
+       margin-right:10px;
+     opacity:0.8;
+   text-decoration: none;
+  margin-top:30px;
+display}
+.top-twitter:hover{opacity:1;}
 
 .facebook{padding:8px 24px;
          color:#ffffff;
-          opacity:0.9;
+         opacity:0.9;
     display:inline-block;
 background-color:#3b5998;
  border-radius: 4px;
 font-size:30px;
 float:right;
-margin-right:100px;
-}
+text-decoration: none;
+margin-right:10px;}
+
+
+.top-facebook{float:right;
+              background-color:#3b5998;
+              color:#ffffff;
+            font-size:25px;
+          padding:5px 10px;
+         border-radius:4px;
+       margin-right:10px;
+     opacity:0.8;
+   text-decoration: none;
+   margin-top:30px;}
+.top-facebook:hover{opacity:1;}
 
 .facebook:hover{opacity:1;}
 
@@ -100,11 +129,13 @@ margin-right:100px;
            margin-top:50px;}
 
 .top h1{font-family:'Book Antiqua';
-       margin-left:100px;}
+       margin-left:100px;
+       color:#ffffff;}
 
 .top{border-top:3px solid #000000;
-border-bottom:3px solid #000000;
-margin-bottom:10px;}
+border:5px solid #9fd6d2;
+margin-bottom:10px;
+background-color:#000000;}
 
 .table-of-contents{border:4px solid #87cefa;
 text-align:center;
