@@ -1,180 +1,57 @@
-
-
-
-.header-logo span{ color:#191970;}
-.header-logo{ float:left;
-           padding-right:30px;
-           font-size:100px;
-         color:#ffffff;}
-.header{font-size:30px;
-             padding-left:50px;
-             background-image:url("https://www.greenmangaming.com/newsroom/wp-content/uploads/2019/08/FortniteAlt-1280x720.jpg");
-             background-size:cover;
-             height:400px;
-           }
-.header-contents{font-size:40px;
-                float:right;
-                margin-right:200px;
-                border-bottom:2px solid #00ffff;
-                border-top:2px solid #00ffff;
-                 width:650px;
-               margin-top:100px;
-             color:#ffffff;}
-
-  img{height:250px; width:400px;}
-  .main-item h3{font-weight:400;
-                 border-left:5px solid #9fd6d2;
-                 margin-left:50px;
-
-                width:500px;
-                background-color:#fcfbfa;
-              color:#666;
-            font-size:20px;}
-
-span{ color:#ff0000;}
-.main-logo{padding-top:50px;
-           padding-left:50px;
-           color:#808080;
-           font-size:20px;}
-.main-picture{margin-left:50px;
-width:400px;
-height:250px;}
-.main-item{font-weight:400;
-           margin:auto;}
-.main-item p{
-             font-family:arial;
-           border-bottom:3px solid #9fd6d2;
-         margin-left: 50px;
-       width:900px;
-     font-size:30px;}
-
-.header{background-color:#ffffcc;}
-
-
-
-.twitter{padding:8px 24px;
-         color:#ffffff;
-         opacity:0.9;
-         display:inline-block;
-         background-color:#55acee;
-         border-radius: 4px;
-         font-size:30px;
-         float:right;
-         text-decoration: none;
-         box-shadow: 0px 5px #000000;}
-
-.top-twitter:hover{opacity:1;}
-.top-twitter{background-color:#55acee;
-             float:right;
-             color:#ffffff;
-             font-size:25px;
-            padding:5px 10px;
-            border-radius:4px;
-            margin-right:10px;
-            opacity:0.8;
-            text-decoration: none;
-            margin-top:30px;
-             display:block;
-            box-shadow: 0px 5px #000000;}
-.top-twitter:active{box-shadow:none;
-                    position:relative;
-                    top:5px;
-
+.top{color:#000000;
+    font-weight:4;
+    background-color:#ffffff;
+    padding:5px 0px;  }
+.top h1{
+     text-align:center;
+     font-family:'Courier';}
+h1 span{padding-left:30px;
+        color:#6F6F6F;
+        font-size:20px;
+        font-weight:4;
+        font-family:serif;}
+.top-contents{
+      background-color:#555555;
+     padding:20px 20px;}
+.top-contents-1{
+  padding:20px 20px;
+  color:#ffffff;
+  font-size:20px;
+  text-decoration:none;
+  width:20%;
+  transition:all 1s;
 }
-.twitter:active{
-  box-shadow:none;
-  position:relative;
-  top:5px;
-
+.top-contents-1:hover{
+         opacity:0.8;
+         background-color: #55acee;
 }
-
-
-.facebook{padding:8px 24px;
-         color:#ffffff;
-         opacity:0.9;
-    display:inline-block;
-background-color:#3b5998;
- border-radius: 4px;
-font-size:30px;
-float:right;
-text-decoration: none;
-margin-right:10px;
-box-shadow: 0px 5px #000000;}
-
-
-.top-facebook{float:right;
-              background-color:#3b5998;
-              color:#ffffff;
-            font-size:25px;
-          padding:5px 10px;
-         border-radius:4px;
-       margin-right:10px;
-     opacity:0.8;
-   text-decoration: none;
-   margin-top:30px;
- box-shadow: 0px 5px #000000;}
-.top-facebook:hover{opacity:1;}
-
-.facebook:hover{opacity:1;}
-.top-facebook:active{
-  box-shadow:none;
-  position:relative;
-  top:5px;
-
-}
-.facebook:active{box-shadow:none;
-                 position:relative;
-                 top:5px;
-}
-.twitter:hover{opacity:1;
-}
-
-.main-definition{background-color:#fcfbfa;
-                 width:300px;
-                 font-size:20px;
-                margin:auto;
-                 margin-right:500px;
-                float:right;
-
-               }
-
-.footer{background-color:#f7f7f7;
-        height:230px;
-        font-weight:400;
-        font-family:arial;
-        color:#7b7b7b;
-      }
-
-.footer h3{padding-left:50px;
-           padding-top:50px;}
-
-.footer h2{margin-left:50px;
-             font-family:"Book Antiqua";
-           margin-top:50px;}
-
-.top h1{font-family:'Book Antiqua';
-       margin-left:100px;
-       color:#ffffff;}
-
-.top{border-top:3px solid #000000;
-border:5px solid #9fd6d2;
-margin-bottom:0px;
- background-color: rgba(34, 49, 52, 0.9);
-   }
-
-.table-of-contents{border:4px solid #87cefa;
-text-align:center;
-list-style: none;
-margin:20px 100px;}
-
-.top-logo{font-size:35px;
-          border-left:7px solid #4865b2;
-        background-color:#f7f7f7;
-      width:1000px;
+main{background-color:#B0E0E6;}
+.main{width:1200px;
       margin:auto;
-    padding: 20px 15px 18px;}
-
-.main-topic{float:left;}
-.fa-twitter{background-color:#55acee;}
-.main-item{font-weight:normal;}
-.footer{font-weight:normal;}
+    }
+.main-left{
+     width:80%;
+     background-color:#fff;
+     padding:20px 20px;
+     text-align:center;
+     margin-top:10px;
+     border-top:30px #B0E0E6 solid;
+     font-weight:normal;
+}
+.main-left h1{
+  font-weight:normal;
+  border-left:5px #191970 solid;
+  background-color:#f7f7f7;
+  padding:5px 2px;
+  color:#7b7b7b;}
+img{
+  width:400px;
+}
+.main-left span{
+  color:#66CCFF;
+}
+.introduction-picture{
+  width:80px;
+  border:2px #000 solid;
+  margin:0px 5px;
+}
