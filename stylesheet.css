@@ -42,11 +42,8 @@ h1 span{padding-left:30px;
          background-color: #55acee;
          text-decoration:underline;
 }
-main{background-color:#eaedf2;}
 .main{width:900px;
-      margin:auto;
-
-    }
+      margin:auto;}
 .main-left{
      width:90%;
      background-color:#fff;
@@ -255,26 +252,26 @@ float:left;
 text-align:center;
 }
 .footer-twitter{
-  padding:15px 5px;
   text-decoration:none;
   color:#000000;
   font-size:20px;
    background-color: #55acee;
    transition:all 1s;
    opacity:0.8;
+   padding:4px;
 }
 .footer-twitter:hover{
   opacity:1;
   color:#ffffff;
 }
 .footer-instagram{
-  padding:15px 5px;
   text-decoration:none;
   color:#000000;
   font-size:20px;
   transition:all 1s;
   opacity:0.8;
   background-color:#FF3366;
+  padding:4px;
 }
 .footer-instagram:hover{
   opacity:1;
@@ -283,4 +280,5 @@ text-align:center;
 }
 .footer-picture{
   width:100px;
+  border-radius:50px;
 }
