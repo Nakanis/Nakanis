@@ -1,14 +1,16 @@
 .top{color:#4682B4;
     font-weight:4;
     background-color:#777777;
-  padding:5px; }
+  padding:5px;
+font-family:arial; }
 .top h1{
      text-align:center;
-     font-family:"cursive";
-     color:#ffffff;}
+     font-family:"Century Gothic";
+     color:#ffffff;
+   font-weight:lighter;}
 h1 span{padding-left:30px;
         color:#77F9C3;
-        font-size:20px;
+        font-size:18px;
         font-weight:4;
         font-family:serif;}
 .top-contents{
@@ -32,7 +34,7 @@ h1 span{padding-left:30px;
   padding:20px 20px;
   transition:all 1s;
   width:20px;
-  font-size:20px;
+  font-size:18px;
 }
 .top-contents-2:hover{
   background-color:	#48D1CC;
@@ -51,7 +53,7 @@ h1 span{padding-left:30px;
      border-top:3px 	#808080 solid;
      border-bottom:3px #808080 solid;
      font-weight:lighter;
-     padding:20px 40px;
+     padding:10px 40px;
      font-family:arial;
 }
 .main-left h1{
@@ -65,18 +67,19 @@ h1 span{padding-left:30px;
   padding:10px 20px;
 }
 .main-left h3{
-  font-size:18px;
+  font-size:20px;
 }
 .main-left h4{
   font-weight:normal;
   color:#7b7b7b;
   color:#000;
   padding:40px 0px;
- font-size:18px;
+ font-size:20px;
  letter-spacing:1px;
+ line-height:40px;
 }
 img{
-  width:760px;
+  width:860px;
   margin:auto;
 }
 
@@ -91,7 +94,7 @@ img{
 .main-logo{
   border:none;
   background-color:#fff;
-  font-size:40px;
+  font-size:42px;
   text-align:center;
   padding:30px 0px;
 }
@@ -102,15 +105,17 @@ img{
   padding:10px 20px;
 }
 .main-list{
-  font-size:18px;
+  font-size:20px;
   padding-bottom:40px;
+  padding-left:20px;
+  color:#3399cc;
 }
 .main-table{
   font-weight:bold;
   padding:none;
 
   font-weight:bold;
-  font-size:18px;
+  font-size:20px;
 }
 .main-table-picture{
   width:30px;
@@ -119,17 +124,17 @@ img{
 
 .introduction-name{
   color:#4682B4;
-  font-size:30px;
+  font-size:32px;
   font-weight:normal;
-  text-align:center;
-  padding-bottom:40px;
-  font-family:"Comic Sans MS";
+  padding-left: 30px;
+  padding-bottom:30px;
 }
 
 .main-blue{
   color:	#0099FF;
-  font-size:18px;
+  font-size:20px;
   padding:40px 0px;
+  font-weight:bold;
 }
 .kitsuon{
   color:	#3399CC;
@@ -144,7 +149,7 @@ img{
 .important{
   color:#ff0000;
   padding:50px 0px;;
-  font-size:30px;
+  font-size:32px;
 }
 .main-picture-big{
   width:300px;
@@ -154,7 +159,7 @@ img{
   background-color:#f7f7f7;
   color:red;
   padding:10px 10px;
-  font-size:18px;
+  font-size:20px;
   border:1px #000000 solid;
 }
 .main-red-span{
@@ -162,7 +167,7 @@ img{
 }
 .introduction-text{
   color:#000000;
-  font-size:20px;
+  font-size:22px;
   font-weight:normal;
   text-align:center;
   padding-bottom:40px;
@@ -172,7 +177,7 @@ img{
 }
 .main-bold{
   font-weight:bold;
-  font-size:18px;
+  font-size:20px;
   padding:40px 0px;
 }
 .main-list-1{
@@ -183,9 +188,11 @@ img{
 .conclusion-list{
   border:2px dashed #669999;
   font-size:20px;
-  padding:15px 5px;
+  padding:30px 10px;
   background-color:#EEFFFF;
-  line-height:40px;
+  line-height:50px;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 .berlitz{
   color:#0000ff;
@@ -193,11 +200,11 @@ img{
 .main-sin{
   color:#f7f7f7;
   font-weight:lighter;
-  font-size:18px;
+  font-size:20px;
 
 }
 .main-part{
-  font-size:23px;
+  font-size:25px;
   border-left:12px #669999 solid;
   font-weight:bold;
   padding:10px;
@@ -218,7 +225,7 @@ footer{
   border-bottom:2px #008080 solid;
   width:200px;
   margin:auto;
-  font-size:30px;
+  font-size:32px;
   text-align:center;
   color:#5f5f5f;
 }
@@ -233,7 +240,7 @@ footer{
   float:left;
 }
 .profile-text{
-  font-size:28px;
+  font-size:30px;
   color:#000000;
   text-align:center;
   font-weight:lighter;
@@ -243,7 +250,7 @@ footer{
   color:#20B2AA;
   width:300px;
   margin:auto;
-  font-size:20px;
+  font-size:22px;
   padding-bottom:50px;
 }
 .footer-main-2{
@@ -254,11 +261,12 @@ text-align:center;
 .footer-twitter{
   text-decoration:none;
   color:#000000;
-  font-size:20px;
+  font-size:22px;
    background-color: #55acee;
    transition:all 1s;
    opacity:0.8;
    padding:4px;
+     border-radius:4px;
 }
 .footer-twitter:hover{
   opacity:1;
@@ -267,11 +275,12 @@ text-align:center;
 .footer-instagram{
   text-decoration:none;
   color:#000000;
-  font-size:20px;
+  font-size:22px;
   transition:all 1s;
   opacity:0.8;
   background-color:#FF3366;
   padding:4px;
+  border-radius:4px;
 }
 .footer-instagram:hover{
   opacity:1;
@@ -281,4 +290,13 @@ text-align:center;
 .footer-picture{
   width:100px;
   border-radius:50px;
+}
+.introduction-name-2{
+  color:#ffffff;
+  background-color:#669999;
+  padding:10px;
+  margin:5px;
+  border-radius:4px;
+  font-size:23px;
+
 }
