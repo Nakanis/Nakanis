@@ -30,10 +30,11 @@ const pikachu = {
 };
 console.log(pikachu.gotoilet);
 document.getElementsByTagName("button")[0].addEventListener("click", () =>{
-    window.alert('正解');
+    window.alert('違うよ～ん');
 });
 document.getElementsByTagName("button")[1].addEventListener("click", () =>{
     window.alert('違うよ～ん');
+    window.alert('実は正解');
 });
 document.getElementsByTagName("button")[2].addEventListener("click", () =>{
     window.alert('違うよ～ん');
