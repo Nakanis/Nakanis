@@ -1,19 +1,11 @@
-.question-1{
-  font-size:30px;
+.box{
+    width:200px;
+    height:200px;
+    background-color:skyblue;
+    cursor:pointer;
 }
-.button{
-  background-color:#66CCFF;
-  border:none;
-  padding:10px;
-  border-radius:4px;
-  transition:all 1s;
-  font-size:20px;
-}
-.button:hover{
-  background-color:#6666FF;
-}
-.title{
-  background-color:#99CCFF;
-  padding:20px;
-  font-size:30px;
-}
+.circle{
+    background-color:pink;
+    border-radius:50%;
+    transition:1s;
+    transform: rotate(360deg)}
