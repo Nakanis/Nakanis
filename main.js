@@ -11,7 +11,7 @@ div.classList.add('box');
 div.addEventListener('click', () => {
 if(i === winner){
   div.textContent = 'よくわかったね。飴ちゃんいる？';
-  ActiveXObject.classList.add('win');
+  div.classList.add('win');
 } else {
 div.textContent = 'ザッコwwwwwwwwww';
 div.classList.add('lose');
