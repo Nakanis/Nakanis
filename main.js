@@ -10,7 +10,7 @@ div.classList.add('box');
 
 div.addEventListener('click', () => {
 if(i === winner){
-  div.textContent = 'よくわかったね。飴ちゃんいる？';
+  div.textContent = 'よくわかったね。';
   div.classList.add('win');
 } else {
 div.textContent = 'ザッコwwwwwwwwww';

@@ -20,7 +20,7 @@ body{
     transition:1s;
     transform: rotate(360deg);
     text-align:center;
-    line-height:100px;
+    line-height:50px;
     color:white;}
 
 .lose{
