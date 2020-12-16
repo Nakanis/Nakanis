@@ -16,17 +16,21 @@ body{
 }
 .win{
     background-color:pink;
-    border-radius:50%;
+    border-radius:20%;
     transition:1s;
     transform: rotate(360deg);
     text-align:center;
-    line-height:50px;
-    color:white;}
+    color:white;
+    line-height:200px;
+    font-size:20px;
+}
+
 
 .lose{
     transform:scale(0.9);
     opacity:0.9;
     text-align:center;
-    line-height:100px;
     color:white;
+   line-height:200px;
+   font-size:20px;
 }

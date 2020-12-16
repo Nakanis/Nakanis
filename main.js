@@ -13,7 +13,7 @@ if(i === winner){
   div.textContent = 'よくわかったね。';
   div.classList.add('win');
 } else {
-div.textContent = 'ザッコwwwwwwwwww';
+div.textContent = 'ザッコww';
 div.classList.add('lose');
 }
 });
