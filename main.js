@@ -1,24 +1,33 @@
 'use strict';
 
-const num = 5;
-const winner = Math.floor(Math.random() * num);
 
-for(let i = 0; i < num; i ++){
-const div = document.createElement('div');
-div.classList.add('box');
+{
+  const btn = document.getElementById('btn');
+  const text = document.getElementById('text');
 
 
-div.addEventListener('click', () => {
-if(i === winner){
-  div.textContent = 'よくわかったね。';
-  div.classList.add('win');
-} else {
-div.textContent = 'ザッコww';
-div.classList.add('lose');
+  btn.addEventListener('click', () => {
+    const n = Math.floor(Math.random() * 3);
+  btn.textContent = n;
+
+  switch(n){
+    case 0:
+      btn.textContent = '大吉';
+      text.textContent = '割りばしがきれいに割れるようになるでしょう';
+      break;
+    case 1:
+      btn.textContent = '中吉';
+      text.textContent = '人生楽しもうぜ';
+      break;
+    case 2:
+      btn.textContent = '凶';
+      text.textContent = 'PCのスペースキーが壊れるでしょう';
+      break;
+  }
+  });
 }
-});
 
-document.body.appendChild(div);}
+
 
 
 
