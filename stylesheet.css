@@ -1,32 +1,38 @@
-body{
-    background-color:#efefef;
+#game{
+    width:500px;
+    height:200px;
+    border: 1px solid black;
 }
-#btn{
-    width:300px;
-    height:300px;
+#character{
+    width: 20px;
+    height:50px;
     background-color:red;
-    border-radius:50%;
-    margin:30px auto;
-    text-align:center;
-    font-size:50px;
-    font-weight:bold;
-    color:white;
-    line-height:300px;
-    cursor:pointer;
-    box-shadow:0 20px 0 #d1483e;
-    user-select:none;
+    position:relative;
+    top:150px;
+}
+.animate{
+    animation: jump 500ms infinite;
 }
 
-#btn:hover{
-    opacity:0.9;
+@keyframes jump{
+    0%{top:150px;}
+    25%{top:125px;}
+    50%{top:75px;}
+    75%{top:125px;}
+    100%{top:150px;}
 }
-#btn:active{
-    box-shadow:0 10px 0 #d1483e;
-    margin-top:40px;
-}
-#text{
-    color:black;
-    font-weight:lighter;
-    font-size:30px;
-    text-align:center;
+
+#block{
+    width:20px;
+    height:20px;
+    background-color: blue;
+    position: relative;
+    top:130px;
+    left:480px;
+    animation: block 1s infinite linear;
+    }
+
+@keyframes block{
+    0%{left:480px;}
+    100%{left:-40px;}
 }

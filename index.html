@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en" onclick="jump()">
 <head>
-  <meta charset="utf-8">
-  <title>多分おみくじ</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <div id="btn">?</div>
- <div id="text">内容</div>
-  <script src="main.js"></script>
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
+    <div id="game"></div>
 </body>
+<script src="script.js"></script>
 </html>
